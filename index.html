@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precision Forge Holdings LLC | Engineering Systems & Software</title>
+  <meta name="description" content="Precision Forge Holdings LLC specializes in deterministic engineering software, automated bill-of-materials reconciliation, and advanced manufacturing platforms.">
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #111827;
+      --border-color: #1f2937;
+      --accent-color: #3b82f6;
+      --accent-hover: #60a5fa;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --mono-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --sans-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--sans-font);
+      line-height: 1.6;
+      padding: 0 1.5rem;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 4rem 0 6rem 0;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 2.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--mono-font);
+      font-size: 0.8rem;
+      color: #10b981;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background: #10b981;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.75rem;
+    }
+
+    .tagline {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 720px;
+    }
+
+    section { margin-bottom: 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-tag {
+      font-family: var(--mono-font);
+      font-size: 0.75rem;
+      color: var(--accent-color);
+      margin-bottom: 0.75rem;
+      display: inline-block;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .spec-list {
+      font-family: var(--mono-font);
+      font-size: 0.8rem;
+      color: #94a3b8;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 0.75rem;
+      list-style: none;
+    }
+
+    .spec-list li { margin-bottom: 0.35rem; }
+
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .specs-table th, .specs-table td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border: 1px solid var(--border-color);
+    }
+
+    .specs-table th {
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .contact-link {
+      color: var(--accent-hover);
+      text-decoration: none;
+      font-family: var(--mono-font);
+    }
+
+    .contact-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="status-badge">
+        <span class="status-dot"></span> OPERATIONAL / R&D DEPLOYMENT
+      </div>
+      <h1>Precision Forge Holdings LLC</h1>
+      <p class="tagline">Deterministic engineering software architectures, automated bill-of-materials parsing, and multi-process digital manufacturing platforms.</p>
+    </header>
+
+    <section>
+      <h2>Active Software Initiatives</h2>
+      <div class="grid">
+        <div class="card">
+          <div>
+            <span class="card-tag">FLAGSHIP APPLICATION</span>
+            <div class="card-title">BOM & Byte Software</div>
+            <p>An autonomous engineering synthesis engine that translates parametric CAD assemblies and change proposals into verified, multi-vendor procurement packages.</p>
+          </div>
+          <ul class="spec-list">
+            <li>• ASME Y14 / IPC Compliance Audit</li>
+            <li>• Fastener Stack Calculations</li>
+            <li>• Relational ERP/QMS Ingestion</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div>
+            <span class="card-tag">GEOMETRIC RUNTIME</span>
+            <div class="card-title">VectorForge Labs</div>
+            <p>High-throughput topological parsing and vector conversion engine designed to extract structural features directly from STEP, DXF, and B-Rep solids.</p>
+          </div>
+          <ul class="spec-list">
+            <li>• Go 1.22 Native Service</li>
+            <li>• Headless CAD Solid Evaluation</li>
+            <li>• Deterministic Toolpath Modeling</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div>
+            <span class="card-tag">INTELLIGENCE LAYER</span>
+            <div class="card-title">Precision Forge AI</div>
+            <p>Hybrid edge-cloud AI orchestration integrating Claude 3.5 APIs with localized acceleration for air-gapped machine execution and quality validation.</p>
+          </div>
+          <ul class="spec-list">
+            <li>• Tool-Choice Schema Enforcement</li>
+            <li>• Prompt-Cached Design Guides</li>
+            <li>• Automated Change Order (ECP) Processing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Corporate Profile & Compliance</h2>
+      <table class="specs-table">
+        <tbody>
+          <tr>
+            <th>Legal Entity</th>
+            <td>Precision Forge Holdings LLC</td>
+          </tr>
+          <tr>
+            <th>State of Formation</th>
+            <td>New Jersey, United States (Founded July 2026)</td>
+          </tr>
+          <tr>
+            <th>Engineering Disciplines</th>
+            <td>Electronics Systems, Additive Manufacturing, Machine Kinematics, Applied AI</td>
+          </tr>
+          <tr>
+            <th>Primary Operations</th>
+            <td>Hamilton Township / South Jersey, NJ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <div>
+        © 2026 Precision Forge Holdings LLC. All rights reserved.
+      </div>
+      <div>
+        Engineering Inquiries: 
+        <a class="contact-link" href="mailto:Lalmey26@precisionforgeholdings.com">Lalmey26@precisionforgeholdings.com</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
