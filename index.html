@@ -84,14 +84,8 @@
   }
   .bar{display:flex;align-items:center;gap:20px;padding:14px 0}
   .brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
-  .brand-logo{height:52px;width:auto;flex:none;border-radius:9px}@media (max-width:720px){.brand-logo{height:44px}}.mark{
-    width:40px;height:40px;flex:none;border-radius:9px;
-    background:var(--navy);display:grid;place-items:center;
-    border:1px solid #2a3852;
-  }
-  .brand-name{font-weight:800;letter-spacing:-.01em;line-height:1.15;font-size:16px;white-space:nowrap}
-  .brand-sub{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;white-space:nowrap}
-  nav.main{margin-left:auto;display:flex;align-items:center;gap:28px}
+  .brand-logo{height:52px;width:auto;flex:none;border-radius:9px}@media (max-width:1024px){.brand-logo{height:44px}}
+    nav.main{margin-left:auto;display:flex;align-items:center;gap:28px}
   nav.main a.nl{
     text-decoration:none;font-weight:600;font-size:14.5px;color:var(--ink-2);
     padding:6px 0;border-bottom:2px solid transparent;
@@ -401,7 +395,7 @@
     section{padding:64px 0}
     .hero-inner{padding:68px 0 60px}
   }
-  @media (max-width: 720px){
+    @media (max-width: 1024px){
     nav.main{
       display:none;position:absolute;top:100%;left:0;right:0;
       background:var(--surface);border-bottom:1px solid var(--line);
@@ -413,8 +407,7 @@
     nav.main .btn{margin-top:14px;justify-content:center}
     .nav-toggle{display:grid}
     header.site{position:relative}
-    .brand-sub{display:none}
-  }
+    }
   @media (max-width: 560px){
     .focus-grid{grid-template-columns:1fr}
     .fcard:last-child{grid-column:span 1}
@@ -436,16 +429,8 @@
 
 <header class="site">
   <div class="wrap bar">
-    <a class="brand" href="#top" aria-label="Precision Forge Holdings LLC — home"><img class="brand-logo" src="logo.png" alt="Precision Forge Holdings LLC logo" />
-      <span class="mark" aria-hidden="true">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2.5 14 9l6.5 1.8L14.8 15 16 21.5 12 17.6 8 21.5 9.2 15 3.5 10.8 10 9 12 2.5Z" fill="#f0a950"/></svg>
-      </span>
-      <span>
-        <span class="brand-name">Precision Forge Holdings</span><br />
-        <span class="brand-sub">LLC · New Jersey</span>
-      </span>
-    </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+    <a class="brand" href="#top" aria-label="Precision Forge Holdings LLC — home"><img class="brand-logo" src="logo.png" alt="Precision Forge Holdings LLC logo" /></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
     <nav class="main" id="mainNav" aria-label="Main navigation">
