@@ -84,7 +84,7 @@
   }
   .bar{display:flex;align-items:center;gap:20px;padding:14px 0}
   .brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
-  .mark{
+  .brand-logo{height:52px;width:auto;flex:none;border-radius:9px}@media (max-width:720px){.brand-logo{height:44px}}.mark{
     width:40px;height:40px;flex:none;border-radius:9px;
     background:var(--navy);display:grid;place-items:center;
     border:1px solid #2a3852;
@@ -436,7 +436,7 @@
 
 <header class="site">
   <div class="wrap bar">
-    <a class="brand" href="#top" aria-label="Precision Forge Holdings LLC — home">
+    <a class="brand" href="#top" aria-label="Precision Forge Holdings LLC — home"><img class="brand-logo" src="logo.png" alt="Precision Forge Holdings LLC logo" />
       <span class="mark" aria-hidden="true">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2.5 14 9l6.5 1.8L14.8 15 16 21.5 12 17.6 8 21.5 9.2 15 3.5 10.8 10 9 12 2.5Z" fill="#f0a950"/></svg>
       </span>
